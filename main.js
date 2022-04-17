@@ -22,6 +22,7 @@ function draw(){
 
       if(objects[i].label=="person"){
         document.getElementById("detection").innerHTML= "Baby Found";
+        sound.stop();
       }
       else{
         document.getElementById("detection").innerHTML= "Baby not Found";
